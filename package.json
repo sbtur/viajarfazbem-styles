@@ -1,7 +1,7 @@
 {
   "name": "vfb-styles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Base de estilos para os projetos da Viajar Faz bem.",
   "main": "dist/index.ts",
   "scripts": {
     "prepare": "npm run build",
@@ -9,7 +9,7 @@
   "files": [
     "dist/**/*"
   ],
-  "author": "",
+  "author": "Viajar Faz bem",
   "license": "ISC",
   "dependencies": {
     "styled-components": "^5.3.3"
