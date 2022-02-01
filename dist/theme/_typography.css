@@ -1,0 +1,24 @@
+:root{
+  --font-family-primary: Source Sans Pro, sans-serif;
+  --font-family-secondary: Montserrat, sans-serif;
+
+  --font-base: 16;
+  --font-size-100: calc((12 / var(--font-base)) * 1rem);
+  --font-size-200: calc((14 / var(--font-base)) * 1rem);
+  --font-size-300: calc((16 / var(--font-base)) * 1rem);
+  --font-size-400: calc((18 / var(--font-base)) * 1rem);
+  --font-size-500: calc((24 / var(--font-base)) * 1rem);
+  --font-size-600: calc((28 / var(--font-base)) * 1rem);
+  --font-size-700: calc((32 / var(--font-base)) * 1rem);
+  --font-size-800: calc((40 / var(--font-base)) * 1rem);
+
+  --line-height-tight: 120%;
+  --line-height-medium: 140%;
+  --line-height-spaced: 160%;
+  --line-height-distant: 180%;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semiBold: 600;
+  --font-weight-bold: 700;
+}

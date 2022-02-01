@@ -1,0 +1,26 @@
+$font-family-primary: var(--font-family-primary);
+$font-family-secondary: var(--font-family-secondary);
+
+$font-size-100: var(--font-size-100);
+$font-size-200: var(--font-size-200);
+$font-size-300: var(--font-size-300);
+$font-size-400: var(--font-size-400);
+$font-size-500: var(--font-size-500);
+$font-size-600: var(--font-size-600);
+$font-size-700: var(--font-size-700);
+$font-size-800: var(--font-size-800);
+
+$line-height-tight: var(--line-height-tight);
+$line-height-medium: var(--line-height-medium);
+$line-height-spaced: var(--line-height-spaced);
+$line-height-distant: var(--line-height-distant);
+
+$font-weight-light: var(--font-weight-light);
+$font-weight-regular: var(--font-weight-regular);
+$font-weight-semiBold: var(--font-weight-semibold);
+$font-weight-bold: var(--font-weight-bold);
+
+$headline-100: $font-family-secondary, $font-size-500, $font-weight-bold, $line-height-medium;
+$headline-200: $font-family-secondary, $font-size-600, $font-weight-bold, $line-height-medium;
+$headline-300: $font-family-secondary, $font-size-700, $font-weight-bold, $line-height-medium;
+$headline-400: $font-family-secondary, $font-size-800, $font-weight-bold, $line-height-medium;
