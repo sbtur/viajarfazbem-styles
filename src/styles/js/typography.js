@@ -1,6 +1,6 @@
 export const fontFamily = {
-    primary: 'Source Sans Pro, sans-serif',
-    secondary: 'Montserrat, sans-serif',
+    primary: 'var(--font-family-primary)',
+    secondary: 'var(--font-family-secondary)',
 };
 
 export const fontSize = {
@@ -15,17 +15,17 @@ export const fontSize = {
 };
 
 export const lineHeight = {
-    tight: '120%',
-    medium: '140%',
-    spaced: '160%',
-    distant: '180%',
+    tight: 'var(--line-height-tight)',
+    medium: 'var(--line-height-medium)',
+    spaced: 'var(--line-height-spaced)',
+    distant: 'var(--line-height-distant)',
 };
 
 export const fontWeight = {
-    light: '300',
-    regular: '400',
-    semiBold: '600',
-    bold: '700',
+    light:'var(--font-weight-light)',
+    regular:'var(--font-weight-regular)',
+    semiBold:'var(--font-weight-semiBold)',
+    bold:'var(--font-weight-bold)',
 };
 
 export const fontBase = `${fontWeight.regular} ${fontSize[200]}/${lineHeight.medium} ${fontFamily.secondary}`;
