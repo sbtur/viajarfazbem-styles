@@ -29,9 +29,16 @@ $media-querie-sm: var(--media-querie-sm);
 $media-querie-md: var(--media-querie-md);
 $media-querie-lg: var(--media-querie-lg);
 $media-querie-xl: var(--media-querie-xl);
+$media-querie-xxl: var(--media-querie-xxl);
 
 $border-base: var(--border-base);
 $border-focus: var(--border-focus);
 $border-success: var(--border-success);
 $border-error: var(--border-error);
 $border-warning: var(--border-warning);
+
+$transition-default: var(--transition-default);
+$transition-property: var(--transition-property);
+$transition-duration: var(--transition-duration);
+$transition-timingFunction: var(--transition-timing-function);
+$transition-delay: var(--transition-delay);

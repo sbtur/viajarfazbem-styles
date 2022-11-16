@@ -1,54 +1,52 @@
-import colors from './colors';
-
 export const borderRadiusSize = {
-    xs: '2px',
-    sm: '8px',
-    md: '10px',
-    lg: '15px',
-    xl: '20px',
-    xxl: '50px',
+    xs: 'var(--border-radius-size-xs)',
+    sm: 'var(--border-radius-size-sm)',
+    md: 'var(--border-radius-size-md)',
+    lg: 'var(--border-radius-size-lg)',
+    xl: 'var(--border-radius-size-xl)',
+    xxl: 'var(--border-radius-size-xxl)',
 };
 
 export const spacingSize = {
-    xs: '8px',
-    sm: '10px',
-    md: '15px',
-    lg: '20px',
-    xl: '40px',
-    xxl: '80px',
+    xs: 'var(--spacing-size-xs)',
+    sm: 'var(--spacing-size-sm)',
+    md: 'var(--spacing-size-md)',
+    lg: 'var(--spacing-size-lg)',
+    xl: 'var(--spacing-size-xl)',
+    xxl: 'var(--spacing-size-xxl)',
 };
 
 export const spacing = {
-    contentPadding: '20px',
-    contentMargin: '80px',
-    global: '20px',
+    contentPadding: 'var(--spacing-content-padding)',
+    contentMargin: 'var(--spacing-content-margin)',
+    global: 'var(--spacing-global)',
 };
 
 export const boxShadow = {
-    1: '0px 3px 15px rgba(0, 0, 0, 0.05)',
-    2: '0 4px 4px rgba(0, 0, 0, 0.02), 0 0px 9px rgba(0, 0, 0, 0.09)',
-    3: '0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22)',
+    1: 'var(--box-shadow-1)',
+    2: 'var(--box-shadow-2)',
+    3: 'var(--box-shadow-3)',
 };
 
 export const zIndex = {
-    base: '1',
-    navigation: '10',
-    dropDown: '100',
-    page: '1000',
+    base: 'var(--z-index-base)',
+    navigation: 'var(--z-index-navigation)',
+    dropDown: 'var(--z-index-drop-down)',
+    page: 'var(--z-index-page)',
 };
 
 export const border = {
-    normal: `1px solid ${colors.grey[300]}`,
-    focus: `1px solid ${colors.secondary.base}`,
-    success: `1px solid ${colors.success.base}`,
-    error: `1px solid ${colors.error.base}`,
-    warning: `1px solid ${colors.warning.base}`,
+    normal: 'var(--border-base)',
+    focus: 'var(--border-focus)',
+    success: 'var(--border-success)',
+    error: 'var(--border-error)',
+    warning: 'var(--border-warning)',
 };
 
 export const transition = {
-    default: `all 0.3s ease`,
-    property: 'all',
-    duration: 0.3,
-    timingFunction: 'ease',
-    delay: 0.3,
+    default: 'var(--transition-default)',
+    property: 'var(--transition-property)',
+    duration: 'var(--transition-duration)',
+    timingFunction: 'var(--transition-timing-function)',
+    delay: 'var(--transition-delay)',
 };

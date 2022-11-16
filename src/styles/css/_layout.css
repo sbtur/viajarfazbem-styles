@@ -29,10 +29,17 @@
     --media-querie-md: 768px;
     --media-querie-lg: 992px;
     --media-querie-xl: 1200px;
+    --media-querie-xxl: 1400px;
 
     --border-base: 1px solid var(--color-grey-300);
     --border-focus: 1px solid var(--color-secondary);
     --border-success: 1px solid var(--color-success);
     --border-error: 1px solid var(--color-error);
     --border-warning: 1px solid var(--color-warning);
+
+		--transition-duration: '0.3s';
+		--transition-delay: 0.3;
+		--transition-property: 'all';
+		--transition-timing-function: 'ease';
+		--transition-default: var(transition-property) var(transition-duration) var(--transition-timing-function);
 }

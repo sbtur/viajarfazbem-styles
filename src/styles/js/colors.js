@@ -115,7 +115,8 @@ export default {
         dark: 'var(--color-info-dark)',
     },
     disabled: {
-        text: 'var(--color-grey-500)',
-        background: 'var(--color-disabled)',
+				base: 'var(--color-disabled)',
+        text: 'var(--color-text-disabled)',
+        background: 'var(--color-background-disabled)',
     },
 };
