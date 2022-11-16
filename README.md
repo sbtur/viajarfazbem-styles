@@ -17,5 +17,5 @@ import  '../../node_modules/viajarfazbem-styles/src/styles/theme/index.css';
 ```
 Pode ser utilizado através do CDN
 ```
-https://cdn.jsdelivr.net/gh/sbtur/viajarfazbem-styles/src/styles/css/index.css
+https://cdn.jsdelivr.net/gh/sbtur/viajarfazbem-styles@master/src/styles/css/index.css
 ```
