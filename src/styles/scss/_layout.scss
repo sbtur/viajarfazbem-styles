@@ -11,8 +11,8 @@ $spacing-size-md: var(--spacing-size-md);
 $spacing-size-lg: var(--spacing-size-lg);
 $spacing-size-xl: var(--spacing-size-xl);
 
-$spacing-contentPadding: var(--spacing-content-padding);
-$spacing-contentMargin: var(--spacing-content-margin);
+$spacing-content-padding: var(--spacing-content-padding);
+$spacing-content-margin: var(--spacing-content-margin);
 $spacing-global: var(--spacing-global);
 
 $box-shadow-1: var(--box-shadow-1);
@@ -29,3 +29,9 @@ $media-querie-sm: var(--media-querie-sm);
 $media-querie-md: var(--media-querie-md);
 $media-querie-lg: var(--media-querie-lg);
 $media-querie-xl: var(--media-querie-xl);
+
+$border-base: var(--border-base);
+$border-focus: var(--border-focus);
+$border-success: var(--border-success);
+$border-error: var(--border-error);
+$border-warning: var(--border-warning);

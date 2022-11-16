@@ -12,9 +12,10 @@ export const borderRadiusSize = {
 export const spacingSize = {
     xs: '8px',
     sm: '10px',
-    md: '20px',
-    lg: '40px',
-    xl: '80px',
+    md: '15px',
+    lg: '20px',
+    xl: '40px',
+    xxl: '80px',
 };
 
 export const spacing = {
@@ -36,18 +37,18 @@ export const zIndex = {
     page: '1000',
 };
 
-export const mediaQueries = {
-    xs: '480px',
-    sm: '576px',
-    md: '768px',
-    lg: '992px',
-    xl: '1200px',
-};
-
 export const border = {
     normal: `1px solid ${colors.grey[300]}`,
     focus: `1px solid ${colors.secondary.base}`,
     success: `1px solid ${colors.success.base}`,
     error: `1px solid ${colors.error.base}`,
     warning: `1px solid ${colors.warning.base}`,
+};
+
+export const transition = {
+    default: `all 0.3s ease`,
+    property: 'all',
+    duration: 0.3,
+    timingFunction: 'ease',
+    delay: 0.3,
 };
