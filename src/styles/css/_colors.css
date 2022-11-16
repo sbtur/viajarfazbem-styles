@@ -1,0 +1,110 @@
+:root {
+	--color-black: hsl(0, 0%, 0%);
+	--color-white: hsl(0, 0%, 100%);
+	--color-blue-100: hsla(194, 95%, 93%, 1);
+	--color-blue-200: hsla(195, 95%, 86%, 1);
+	--color-blue-300: hsla(194, 91%, 78%, 1);
+	--color-blue-400: hsla(197, 86%, 72%, 1);
+	--color-blue-500: hsla(201, 84%, 62%, 1);
+	--color-blue-600: hsla(205, 60%, 51%, 1);
+	--color-blue-700: hsla(208, 64%, 41%, 1);
+	--color-blue-800: hsla(208, 64%, 41%, 1);
+	--color-blue-900: hsla(216, 78%, 25%, 1);
+	--color-green-100: hsla(144, 82%, 91%, 1);
+	--color-green-200: hsla(144, 80%, 83%, 1);
+	--color-green-300: hsla(144, 71%, 74%, 1);
+	--color-green-400: hsla(155, 60%, 66%, 1);
+	--color-green-500: hsla(144, 49%, 57%, 1);
+	--color-green-600: hsla(153, 37%, 49%, 1);
+	--color-green-700: hsla(163, 38%, 41%, 1);
+	--color-green-800: hsla(174, 39%, 32%, 1);
+	--color-green-900: hsla(182, 41%, 26%, 1);
+	--color-grey-100: hsl(200, 75%, 98%);
+	--color-grey-200: hsl(203, 62%, 96%);
+	--color-grey-300: hsl(202, 44%, 92%);
+	--color-grey-400: hsl(203, 35%, 85%);
+	--color-grey-500: hsl(204, 27%, 80%);
+	--color-grey-600: hsl(203, 17%, 58%);
+	--color-grey-700: hsl(203, 15%, 41%);
+	--color-grey-800: hsl(201, 19%, 33%);
+	--color-grey-900: hsl(203, 20%, 23%);
+	--color-yellow-100: hsla(54, 100%, 90%, 1);
+	--color-yellow-200: hsla(53, 100%, 80%, 1);
+	--color-yellow-300: hsla(53, 100%, 71%, 1);
+	--color-yellow-400: hsla(52, 100%, 63%, 1);
+	--color-yellow-500: hsla(51, 100%, 51%, 1);
+	--color-yellow-600: hsla(43, 97%, 44%, 1);
+	--color-yellow-700: hsla(43, 98%, 36%, 1);
+	--color-yellow-800: hsla(36, 99%, 29%, 1);
+	--color-yellow-900: hsla(25, 100%, 24%, 1);
+	--color-red-100: hsla(0, 71%, 90%, 1);
+	--color-red-200: hsla(350, 70%, 81%, 1);
+	--color-red-300: hsla(353, 67%, 70%, 1);
+	--color-red-400: hsla(349, 62%, 63%, 1);
+	--color-red-500: hsla(353, 60%, 52%, 1);
+	--color-red-600: hsla(347, 57%, 44%, 1);
+	--color-red-700: hsla(341, 60%, 36%, 1);
+	--color-red-800: hsla(334, 63%, 28%, 1);
+	--color-red-900: hsla(328, 66%, 23%, 1);
+	--color-pink-100: hsla(7, 100%, 92%, 1);
+	--color-pink-200: hsla(1, 100%, 84%, 1);
+	--color-pink-300: hsla(356, 100%, 76%, 1);
+	--color-pink-400: hsla(350, 100%, 70%, 1);
+	--color-pink-500: hsla(344, 100%, 60%, 1);
+	--color-pink-600: hsla(338, 72%, 50%, 1);
+	--color-pink-700: hsla(332, 75%, 41%, 1);
+	--color-pink-800: hsla(327, 80%, 32%, 1);
+	--color-pink-900: hsla(321, 85%, 26%, 1);
+
+	--color-primary-100: hsla(201, 67%, 88%, 1);
+	--color-primary-200: hsla(204, 67%, 77%, 1);
+	--color-primary-300: hsla(208, 53%, 61%, 1);
+	--color-primary-400: hsla(212, 45%, 44%, 1);
+	--color-primary-500: hsla(216, 69%, 25%, 1);
+	--color-primary-600: hsla(218, 74%, 21%, 1);
+	--color-primary-700: hsla(219, 81%, 17%, 1);
+	--color-primary-800: hsla(223, 85%, 13%, 1);
+	--color-primary-900: hsla(225, 89%, 11%, 1);
+
+	--color-secondary-100: hsla(205, 97%, 94%, 1);
+	--color-secondary-200: hsla(195, 95%, 83%, 1);
+	--color-secondary-300: hsla(199, 93%, 74%, 1);
+	--color-secondary-400: hsla(202, 88%, 66%, 1);
+	--color-secondary-500: hsla(205, 86%, 55%, 1);
+	--color-secondary-600: hsla(209, 75%, 46%, 1);
+	--color-secondary-700: hsla(212, 79%, 38%, 1);
+	--color-secondary-800: hsla(216, 83%, 30%, 1);
+	--color-secondary-900: hsla(219, 88%, 24%, 1);
+
+	--color-primary: var(--color-primary-500);
+	--color-primary-light: var(--color-primary-100);
+	--color-primary-dark: var(--color-primary-900);
+
+	--color-secondary: var(--color-secondary-500);
+	--color-secondary-light: var(--color-secondary-100);
+	--color-secondary-dark: var(--color-secondary-900);
+
+	--color-highlight: var(--color-pink-500);
+	--color-highlight-light: var(--color-pink-100);
+	--color-highlight-dark: var(--color-pink-900);
+
+	--color-success: var(--color-green-500);
+	--color-success-light: var(--color-green-100);
+	--color-success-dark: var(--color-green-900);
+
+	--color-error: var(--color-red-500);
+	--color-error-light: var(--color-red-100);
+	--color-error-dark: var(--color-red-900);
+
+	--color-warning: var(--color-yellow-600);
+	--color-warning-light: var(--color-yellow-100);
+	--color-warning-dark: var(--color-yellow-900);
+
+	--color-info: var(--color-blue-500);
+	--color-info-light: var(--color-blue-100);
+	--color-info-dark: var(--color-blue-900);
+
+	--color-disabled: var(--color-grey-300);
+	--color-text-disabled: var(--color-grey-700);
+	--color-background-disabled: var(--color-grey-100);
+}
