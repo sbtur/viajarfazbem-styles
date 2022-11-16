@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import * as typography from './typography';
 import colors from './colors';
 
-const GlobalStyle = createGlobalStyle`
+
   * {
     margin: 0;
     padding: 0;
@@ -51,6 +51,3 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.grey[500]};
     margin: 0;
   }
-`;
-
-export default GlobalStyle;

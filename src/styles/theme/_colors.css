@@ -105,4 +105,6 @@
     --color-info-dark: var(--color-blue-900);
 
     --color-disabled: var(--color-grey-300);
+	--color-text-disabled: var(--color-grey-700);
+	--color-background-disabled: var(--color-grey-100);
   }

@@ -1,24 +1,17 @@
 {
-  "name": "vfb-styles",
+  "name": "viajarfazbem-styles",
   "version": "1.0.0",
   "description": "Base de estilos para os projetos da Viajar Faz bem.",
-  "main": "dist/index.ts",
-  "scripts": {
-    "prepare": "npm run build"
-  },
-  "files": [
-    "dist/**/*"
-  ],
-  "author": "Viajar Faz bem",
-  "license": "ISC",
-  "dependencies": {
-    "styled-components": "^5.3.3"
-  },
-  "devDependencies": {
-    "@types/styled-components": "^5.1.21"
-  },
+  "main": "index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbtur/vfb-styles.git"
-  }
+    "url": "git+https://github.com/sbtur/viajarfazbem-styles.git"
+  },
+  "author": "Viajar Faz Bem <tecnologia@viajarfazbem.com> (http://viajarfazbem.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbtur/viajarfazbem-styles/issues"
+  },
+  "homepage": "https://github.com/sbtur/viajarfazbem-styles#readme"
 }
