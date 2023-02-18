@@ -1,6 +1,6 @@
 {
   "name": "viajarfazbem-styles",
-  "version": "1.0.6",
+  "version": "0.1.6",
   "description": "Base de estilos para os projetos da Viajar Faz bem.",
   "main": "index.js",
   "scripts": {},
